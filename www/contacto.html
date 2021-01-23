@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTML Assessment: Contacto</title>
+</head>
+
+<body>
+  <header>
+    <h1>Lorem ipsum</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <nav>
+        <ul>
+            <li><a href="/index.html" title="Enlace a inicio">Inicio</a></li>
+            <li><a href="/contacto.html" title="Enlace a contacto">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="" method="get">
+        <h2>Formulario</h2>
+
+        <fieldset>
+          <legend>Datos personales</legend>
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" autofocus required />
+        </fieldset>
+    
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email" id="email" required />
+            <label for="phone">Teléfono</label>
+            <input type="tel" name="phone" id="phone" />
+            <label for="url">URL</label>
+            <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web personal" size="35" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Fecha, hora y mes</legend>
+            <label for="date">Fecha</label>
+            <input type="date" name="date" id="date" />
+            <label for="time">Hora</label>
+            <input type="time" name="time" id="time" />
+            <label for="datetime">Fecha y hora</label>
+            <input type="datetime" name="datetime" id="datetime" />  <!-- Datetime is deprecated-->
+            <label for="month">Mes</label>
+            <input type="month" name="month" id="month" />
+            <label for="week">Semana</label>
+            <input type="week" name="week" id="week" />
+            <label for="number">Número</label>
+            <input type="number" name="number" id="number" min="-10" max="10" />
+        </fieldset>
+        
+        <fieldset>
+          <legend>Búsqueda</legend>
+          <label for="search">Búsqueda</label>
+          <input type="search" name="search" id="search" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Favoritos</legend>
+            <label for="color">Color favorito</label>
+            <input type="color" name="color" id="color" />
+            <label for="about">Sobre ti</label>
+            <textarea name="about" id="about" placeholder="Tus comidas, peliculas, canciones o animales favoritos" maxlength="250" minlength="0"></textarea>  
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+    
+  </main>
+
+  <footer>
+      <h2>Webs de la corporación</h2>
+      <ul>
+          <li><a href="https://alwaysjudgeabookbyitscover.com/">Web1</a></li>
+          <li><a href="http://eelslap.com/">Web2</a></li>
+          <li><a href="http://www.staggeringbeauty.com/">Web3</a></li>
+      </ul>
+      <p>© 2020 Samuel</p>
+  </footer>
+
+</body>
+
+</html>
