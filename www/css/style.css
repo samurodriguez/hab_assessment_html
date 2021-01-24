@@ -66,6 +66,10 @@ body > header a {
   padding: 1rem;
 }
 
+header nav a.selected {
+  background: var(--color-fondo-claro);
+}
+
 /* Main */
 
 body > main {
@@ -237,8 +241,4 @@ footer a:visited {
 footer p {
   margin: 1rem;
   font-weight: bold;
-}
-
-header nav a.selected {
-  background: var(--color-fondo-claro);
 }
